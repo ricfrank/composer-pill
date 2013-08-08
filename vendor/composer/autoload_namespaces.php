@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
     'Monolog' => array($vendorDir . '/monolog/monolog/src'),
+    'Extrategy\\' => array($baseDir . '/src'),
 );

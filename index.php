@@ -3,9 +3,11 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\Request;
+use Extrategy\Lab\Post;
 
 $response =  new Response(200);
-$response->setContent("composer Daje e Daje!");
+$post =  new Post();
+
+$response->setContent("composer Daje e Daje! ".$post->getContent());
 
 return $response->send();

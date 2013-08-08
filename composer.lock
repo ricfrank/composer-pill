@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a277c55cadba83b871628326e10cc1c6",
+    "hash": "c28aadb5fbee63ec7a8345b9960e9d83",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "c7c3751880f2269bb48974578d37f8125016bc09"
+                "reference": "e6d681b26a7d0086266cac5c6cab14ac74f73d2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/c7c3751880f2269bb48974578d37f8125016bc09",
-                "reference": "c7c3751880f2269bb48974578d37f8125016bc09",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/e6d681b26a7d0086266cac5c6cab14ac74f73d2c",
+                "reference": "e6d681b26a7d0086266cac5c6cab14ac74f73d2c",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-02 20:53:46"
+            "time": "2013-08-08 06:56:17"
         }
     ],
     "packages-dev": [
